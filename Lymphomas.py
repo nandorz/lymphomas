@@ -245,7 +245,7 @@ def machine_learning():
     data = load_data()
 
     # Load the trained model
-    model = pickle.load(open('model/logistic_regression_model.pkl', 'rb'))
+    model = pickle.load(open('logistic_regression_model.pkl', 'rb'))
 
     # Streamlit app title
     st.title('Demo: Machine Learning')
