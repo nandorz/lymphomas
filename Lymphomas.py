@@ -321,7 +321,7 @@ def machine_learning():
 
 def main():
     # Menampilkan gambar dari data yang telah di-cache
-    st.title('Lympgomas')
+    st.title('Lymphomas')
 
     # Add a selectbox to the sidebar to select the page to display
     page = st.sidebar.selectbox("Select a page", ["Dataset", "Visualization", "Machine Learning Demo"])
