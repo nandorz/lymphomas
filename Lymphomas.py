@@ -33,9 +33,9 @@ def loading_dataset():
     data = load_data()
 
     # Display raw data if checkbox is selected
-    if st.checkbox('Show raw data'):
-        st.subheader('Raw data')
-        st.write(data)
+    #if st.checkbox('Show raw data'):
+    #    st.subheader('Raw data')
+    #    st.write(data)
 
     # Display dataset description
     st.markdown(
